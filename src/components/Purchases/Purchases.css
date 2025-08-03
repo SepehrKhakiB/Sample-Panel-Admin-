@@ -1,0 +1,30 @@
+.Purchases-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: var(--box);
+    padding: 1rem;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.purchases-list-container {
+    max-height: 200px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.purchases-list-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.purchases-list-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.purchases-list-container::-webkit-scrollbar-track {
+    background: transparent;
+}

@@ -1,0 +1,11 @@
+.SummaryComments{
+    width: 100%;
+    background-color: var(--box);
+    padding: 1rem;
+    text-align: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}

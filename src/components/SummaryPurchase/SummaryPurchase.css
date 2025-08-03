@@ -1,0 +1,18 @@
+.SummaryPurchase {
+    width: 100%;
+    background-color: var(--box);
+    padding: 1rem;
+    text-align: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SummaryPurchase-price {
+    color: #fff;
+    padding: 5px;
+    background-color: #1E555C;
+    border-radius: 10px;
+}

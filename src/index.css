@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("/public/fonts/Vazir/Vazir-Light.woff");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+ul {
+    font-family: "Vazir";
+    list-style: none;
+}
+
+:root {
+    --dark-box: #1F2A40;
+    --color-text-gray: #e2e2e2;
+    --color-text-dark: #818181;
+    --select-item-color: #656CF0
+}
+
+.app {
+    display: flex;
+    background-color: var(--background);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

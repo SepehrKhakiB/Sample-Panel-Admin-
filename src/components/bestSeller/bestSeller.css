@@ -1,0 +1,15 @@
+.BestSeller {
+    width: 50%;
+    background-color: var(--box);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--text);
+}
+
+.BestSeller .MuiChartsLabel-root {
+    color: var(--text) !important;
+}
